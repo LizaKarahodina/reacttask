@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<div class="modal-window-wrap">
+    <div class="modal-window">
+        <div class="modal-window-closen">&#10006;</div>
+        Data is sent successfully
+    </div>
+</div>
+
+
+<div class="container">
+    <form action="">
+        <div class="item" >
+            <div class="name-items">First name*</div>
+            <input type="text" id="firstName">
+            <div class="error" id="errorFirstName"></div>
+        </div>
+        <div class="item">
+            <div class="name-items">Last name*</div>
+            <input type="text" id="lastName">
+            <div class="error" id="errorLastName"></div>
+        </div>
+        <div class="item">
+            <div class="name-items">Birthday*</div>
+            <input type="text"  placeholder="" id="datepicker">
+            <div class="error" id="errorDatepicker"></div>
+        </div>
+        <div class="item">
+            <div class="name-items">Sex*</div>
+            <input type="radio" class="sex" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" class="sex" name="gender" id="female" value="female">
+            <label for="female">Female</label><br>
+            <div class="error"  id="errorSex"></div>
+        </div>
+        <div class="item">
+            <div class="name-items">Country*</div>
+            <select id="country"  class="county-select">
+                <option>Ukraine</option>
+                <option >Russia</option>
+                <option>Belarus</option>
+                <option>Kazakhstan</option>
+                <option>Azerbaijan</option>
+            </select>
+            <div class="error" id="errorCountry"></div>
+        </div>
+        <div class="item">
+            <div class="name-items">Email*</div>
+            <input type="email" id="email">
+            <div class="error"  id="errorEmail"></div>
+        </div>
+        <div class="item">
+            <div class="name-items">Password*</div>
+            <input type="password"  id="password">
+            <div class="error" id="errorPassword"></div>
+        </div>
+        <div class="item">
+            <div class="name-items">Address*</div>
+            <input type="text"  id="address">
+            <div class="error" id="errorAddress"></div>
+        </div>
+        <div class="item">
+            <div class="name-items">Note</div>
+            <textarea name="" id="note" >
+
+            </textarea>
+
+        </div>
+        <button class="btn-submit"  type="submit">
+            Submit
+        </button>
+    </form>
+</div>
+</body>
+</html>

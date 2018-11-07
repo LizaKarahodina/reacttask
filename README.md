@@ -3,4 +3,4 @@
 
 This task for  course React 
 
-View: 
+You can see page to link: https://lizakarahodina.github.io/reacttask/
